@@ -1,0 +1,58 @@
+/* src/components/Header.css */
+
+header {
+    background-color: #282c34; /* Dark background for the header */
+    color: white; /* White text color */
+    padding: 20px; /* Padding for the header */
+}
+
+.header-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 10px; /* Space between title and navigation */
+}
+
+.container5 {
+    max-width: 1200px; /* Limit the width of the header content */
+    margin: 0 auto; /* Center the container */
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: 1fr auto; /* Two columns: logo and nav */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    display: flex; /* Use flexbox for logo */
+    align-items: center; /* Center items vertically */
+}
+
+.header-icon {
+    width: 80px; /* Set a fixed width for the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the image and the title */
+    border-radius: 10px; /* Rounded corners for the icon */
+}
+
+nav {
+    display: flex; /* Use flexbox for navigation */
+    justify-content: flex-end; /* Align navigation to the right */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #61dafb; /* Change color on hover */
+}

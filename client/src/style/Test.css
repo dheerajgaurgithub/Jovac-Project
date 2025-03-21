@@ -1,0 +1,62 @@
+/* Container for the entire test */
+.test-container {
+  padding: 20px;
+  max-width: 600px; /* Limit the width of the test */
+  margin: auto; /* Center the container */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading style */
+.test-container h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for each question */
+.question {
+  margin-bottom: 20px; /* Space between questions */
+  padding: 10px; /* Padding around the question */
+  border: 1px solid #ddd; /* Light border around each question */
+  border-radius: 5px; /* Rounded corners for questions */
+  background-color: #fff; /* White background for questions */
+}
+
+/* Style for the question text */
+.question p {
+  font-size: 20px; /* Increased font size for the question */
+  font-weight: bold; /* Make the question text bold */
+  color: #333; /* Darker text color for better readability */
+}
+
+/* Style for the options */
+.options {
+  margin-left: 20px; /* Indent options */
+}
+
+/* Style for each option */
+.options div {
+  margin-bottom: 10px; /* Space between options */
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+  margin-right: 10px; /* Space between radio button and label */
+}
+
+/* Style for the error message */
+.error-message {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center the error message */
+  margin-top: 20px; /* Space above the error message */
+}
+
+/* Style for loading message */
+.loading-message {
+  text-align: center; /* Center the loading message */
+  font-size: 18px; /* Larger font size for loading message */
+  color: #007BFF; /* Blue color for loading message */
+}

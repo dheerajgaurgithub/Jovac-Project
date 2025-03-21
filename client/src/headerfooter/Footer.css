@@ -1,0 +1,42 @@
+/* src/components/Footer.css */
+
+footer {
+    background-color: #282c34; /* Dark background for the footer */
+    color: rgb(247, 242, 242); /* White text color */
+    padding: 20px; /* Padding for the footer */
+    text-align: center;
+     /* Center the text */
+
+     font-size: 25px;
+}
+
+.container {
+    max-width: 1200px; /* Limit the width of the footer content */
+    margin: 0 auto; /* Center the container */
+}
+
+.container p {
+    font-size: 1.2em; /* Increase font size for the copyright text */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.social-links {
+    display: flex; /* Use flexbox for social links */
+    justify-content: center; /* Center the social links */
+    margin-top: 10px; /* Space above the social links */
+}
+
+.social-links a {
+    margin: 0 10px; /* Space between social icons */
+}
+
+.social-icon {
+    width: 60px; /* Set a fixed width for the icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    border-radius: 10px;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
