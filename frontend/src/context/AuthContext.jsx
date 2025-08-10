@@ -12,7 +12,7 @@ export const useAuth = () => {
 };
 
 // Set up axios defaults
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://jovac-project-2oqb.onrender.com/api';
 axios.defaults.baseURL = API_URL;
 
 export const AuthProvider = ({ children }) => {

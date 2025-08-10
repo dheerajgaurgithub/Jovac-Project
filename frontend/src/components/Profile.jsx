@@ -336,7 +336,7 @@ const Profile = () => {
                 }}>
                   <Box sx={{ position: 'relative', mb: 3 }}>
                     <Avatar
-                      src={profileData.profileImage ? `http://localhost:5000/${profileData.profileImage}` : ''}
+                      src={profileData.profileImage ? `https://jovac-project-2oqb.onrender.com/${profileData.profileImage}` : ''}
                       sx={{ 
                         width: { xs: 120, md: 160 }, 
                         height: { xs: 120, md: 160 },

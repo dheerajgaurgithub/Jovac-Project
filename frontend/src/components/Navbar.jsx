@@ -298,7 +298,7 @@ const Navbar = () => {
                     });
                     return user.profileImage ? (
                       <Avatar 
-                        src={`http://localhost:5000/${user.profileImage}?t=${Date.now()}`}
+                        src={`https://jovac-project-2oqb.onrender.com/${user.profileImage}?t=${Date.now()}`}
                         alt={user.name}
                         sx={{ 
                           width: 36, 
@@ -375,7 +375,7 @@ const Navbar = () => {
                   <Stack direction="row" spacing={2} alignItems="center">
                     {user.profileImage ? (
                       <Avatar 
-                        src={`http://localhost:5000/${user.profileImage}?t=${Date.now()}`}
+                        src={`https://jovac-project-2oqb.onrender.com/${user.profileImage}?t=${Date.now()}`}
                         alt={user.name}
                         sx={{ width: 40, height: 40 }}
                       />
