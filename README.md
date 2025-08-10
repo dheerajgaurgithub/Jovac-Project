@@ -1,9 +1,5 @@
 # TestGenerator - AI-Powered Test Creation & Management Platform
 
-![TestGenerator](https://img.shields.io/badge/TestGenerator-v1.0-blue.svg)
-![MERN Stack](https://img.shields.io/badge/Stack-MERN-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-
 ## 🚀 Overview
 
 **TestGenerator** is a comprehensive, AI-powered test creation and management platform built with the MERN stack. It enables educators to automatically generate tests from PDF documents and provides students with an intuitive interface to take tests and view results.
