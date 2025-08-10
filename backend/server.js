@@ -23,6 +23,33 @@ app.use(express.urlencoded({ extended: true }));
 // Serve uploaded files
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Root route - API information
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Jovac Project API is running successfully!',
+    version: '1.0.0',
+    status: 'active',
+    endpoints: {
+      auth: '/api/auth',
+      tests: '/api/tests',
+      users: '/api/users',
+      results: '/api/results',
+      profile: '/api/profile'
+    },
+    documentation: 'Visit the respective endpoints for API functionality'
+  });
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    environment: process.env.NODE_ENV || 'development'
+  });
+});
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/tests', testRoutes);
